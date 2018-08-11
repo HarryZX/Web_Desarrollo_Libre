@@ -2,7 +2,7 @@ body{
 	font: 15px Arial, Helvetica, sans-serif;
 	padding: 0;
 	margin: 0;
-	background-color: #f4f4f4;
+	background-color: #ffffff;
 }
 
 /*Estilos globales*/
@@ -18,27 +18,28 @@ ul{
 	padding: 0;
 }
 
+/*Para el boton de suscripción*/
 .boton1{
 	height: 38px;
-	background-color: #e8491d;
+	background-color: #DF0101;/*color rojo*/
 	border: 0;
 	padding-left: 20px;
 	padding-right: 20px;
-	color: #fff;
+	color: #fff;/*color blanco*/
 }
 
 /*Encabezados*/
 
 header{
-	background-color: #24282b;
-	color: #fff;
+	background-color: #f2f2f2;/*color gris claro*/
+	color: #DF0101;/*color letras: rojo oscuro*/
 	padding-top: 30px;
 	min-height: 70px;
-	border-bottom: 5px solid #1293d4;
+	border-bottom: 5px solid #f2f2f2;
 }
 
 header a{
-	color: #fff;
+	color: #000;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 16px;
@@ -64,12 +65,12 @@ header nav{
 }
 
 header .resaltado, header .actual a{
-	color: #1293d4;
+	color: #DF0101;/*color rojo*/
 	font-weight: bold;
 }
 
 header a:hover{
-	color: #ccc;
+	color: #F78181;/*color rojo claro*/
 	font-weight: bold;
 }
 
@@ -96,8 +97,8 @@ header a:hover{
 
 #boletin{
 	padding: 15px;
-	color: #fff;
-	background: #24282b;
+	color: #000;
+	background: #f2f2f2;
 }
 
 #boletin h1{
@@ -160,7 +161,7 @@ article #main-col{
 footer{
 	padding: 20px;
 	margin-top: 20px;
-	color: #fff;
-	background-color: #1293d4;
+	color: #aaa;
+	background-color: #f2f2f2;/*color gris claro*/
 	text-align: center;
 }
