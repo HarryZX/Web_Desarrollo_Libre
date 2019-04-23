@@ -1,0 +1,13 @@
+
+class{
+	
+	//este es un encapsulamiento de una función de busqueda binaria que toma un vector
+	//de objetos ordenados y una clave y devuelve un objeto con 2 atributos:
+	//index-el valor del vector index
+	//found-un valor booleano que indica si key está en el vector.
+	//Se devuelve un objeto puesto que en Java no es posible pasar tipos básicos
+	//por referencia a una función y por lo tanto devolver los valores.
+	//El valor de key es -1 si no se encuentra el elemento.
+
+	public
+}
